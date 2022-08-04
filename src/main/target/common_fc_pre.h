@@ -97,10 +97,15 @@
 #define BLACKBOX
 #define LED_STRIP
 #define TELEMETRY
-#define TELEMETRY_FRSKY
-#define TELEMETRY_HOTT
-#define TELEMETRY_LTM
-#define TELEMETRY_SMARTPORT
+
+// NAZE32-ELRS: Removed protocols to make room for CRSF
+// #define TELEMETRY_FRSKY
+// #define TELEMETRY_HOTT
+// #define TELEMETRY_LTM
+// #define TELEMETRY_SMARTPORT
+
+#define TELEMETRY_CRSF
+
 #define USE_RESOURCE_MGMT
 #define USE_SERVOS
 #endif

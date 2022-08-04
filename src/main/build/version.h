@@ -19,7 +19,7 @@
 
 #include "common/utils.h"
 
-#define FC_FIRMWARE_NAME            "Betaflight"
+#define FC_FIRMWARE_NAME            "Betaflight-naze32-elrs"
 #define FC_VERSION_MAJOR            3  // increment when a major release is made (big new feature, etc)
 #define FC_VERSION_MINOR            2  // increment when a minor release is made (small new feature, change etc)
 #define FC_VERSION_PATCH_LEVEL      5  // increment when a bug is fixed

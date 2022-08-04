@@ -127,7 +127,9 @@ static void crsfInitializeFrame(sbuf_t *dst)
     dst->ptr = crsfFrame;
     dst->end = ARRAYEND(crsfFrame);
 
-    sbufWriteU8(dst, CRSF_ADDRESS_BROADCAST);
+    const int CRSF_SYNC_BYTE=0XC8;
+
+    sbufWriteU8(dst, CRSF_SYNC_BYTE);
 }
 
 static void crsfWriteCrc(sbuf_t *dst, uint8_t *start)
