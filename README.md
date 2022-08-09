@@ -1,4 +1,11 @@
-# Betaflight 3.2.x for Naze32 with ELRS.
+# Betaflight 3.2.x for Naze32 with ELRS & ESC Passthrough
+
+
+## Features
+* CRSF serial protocol & telemetry, which is required for ELRS.
+* Fixed issue with CRSF not working (sync byte).
+* Other serial protocols disabled to make room on Flash
+* ESC Passthrough enabled.
 
 ## Configuration & Setup
 Connect the ELRS receiver
